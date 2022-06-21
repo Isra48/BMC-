@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Paytone+One&family=Poppins:wght@300&display=swap");
+
+/*Navbar */
+.contenedorlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+}
+.imagewortev {
+  width: 142px;
+  height: 35px;
+  padding-bottom: 2;
+}
+
+/*Section 1 */
+.Section1 {
+  display: flex;
+  justify-content: center;
+  background-color: #244cd3;
+  height: 80vh;
+  padding: 1em;
+  align-items: center;
+}
+.child1 {
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.mockmac {
+  width: 90%;
+}
+
+.child2 {
+  color: #fefefe;
+  position: absolute;
+  top: 55%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.TituloPrincipal {
+  font-size: 190px;
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  line-height: 190px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.plight {
+  color: #7c9aff;
+  font-size: 34px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+}
+.pnormal {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+.btnModal {
+  background-color: #ffd305;
+  border-radius: 30px;
+  text-decoration: none;
+}
