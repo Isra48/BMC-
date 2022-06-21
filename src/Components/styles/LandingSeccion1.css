@@ -1,0 +1,152 @@
+.seccion-1 {
+  background-color: #ffffff;
+}
+
+.copys-container {
+  align-items: center;
+  text-align: left;
+  margin-top: 250px;
+  margin-left: 100px;
+  margin-right: 2em;
+  padding-right: 2em;
+  
+}
+
+/*.copys-container phone*/
+@media (min-width: 320px) {
+  .texto-inicio, h1,h2{
+  margin-left: -50px!important;
+  
+ 
+  }
+ 
+  
+  }
+
+
+
+  @media only screen and (min-width: 320px) and (max-width:1020px) {
+    .texto-inicio{
+    margin-top: -180px!important;
+   
+    }
+   
+    
+    }
+
+    @media (min-width: 320px) {
+      
+      }
+  
+
+
+
+
+
+
+
+/*.copys-container tablet*/
+@media (max-width: 768px) {
+  .copys-container, .texto-inicio{
+    margin-top: -90px;
+  }
+  h2{
+   
+    width: 300px;
+    font-weight: bold;
+    
+  
+  }
+  .texto-inicio{
+    width: 250px;
+  }
+
+}
+
+
+
+
+
+
+
+/*Phone footer*/
+@media (max-width: 412px) {
+
+  }
+
+
+.texto-inicio {
+  font-family: "Anton", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+
+/*Phone footer*/
+@media (max-width: 412px) {
+  .texto-inicio{
+    font-size: 26px !important;
+    
+   
+  }
+  .seccion-form {
+margin-top: -5em !important;
+  }
+}
+
+
+
+
+h1 {
+  font-family: "Anton", sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  letter-spacing: 2.5px;
+  line-height: 1;
+}
+
+/*Phone footer*/
+@media (max-width: 412px) {
+  h1{
+text-align: start;
+margin-right: 400px !important;
+    
+   
+  }
+  }
+
+  /*Phone footer*/
+@media (max-width: 412px) {
+  h2{
+    font-size: 20px !important;
+    
+    
+   
+  }
+  }
+
+
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: medium;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: -1px;
+  opacity: 0.6;
+}
+
+.seccion-form {
+  height: 800px;
+  background-image: url("../../images/vector.svg");
+  background-repeat: no-repeat;
+  background-size: 78%;
+  background-position: center;
+}
+.img-back{
+  background-image: none;
+  background-repeat: no-repeat;
+  background-size: 78%;
+  background-position: center;
+}

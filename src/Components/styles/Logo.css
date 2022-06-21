@@ -1,0 +1,29 @@
+.logo {
+  margin-left: 3em;
+  align-content: left;
+  margin-top: 40px;
+}
+
+
+/*Tablet*/
+@media (max-width: 1025px) {
+  .logo{
+    text-align: left;
+    margin-left: 3em;
+  }
+}
+@media (max-width: 800px) {
+  .logo{
+    text-align: left;
+    margin-left: 3em;
+  }
+}
+
+
+/*Phone*/
+@media (max-width: 416px) {
+  .logo{
+    text-align: center;
+    margin-left: 2em;
+  }
+}

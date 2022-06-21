@@ -1,0 +1,99 @@
+.main-bmc{
+  max-width: 1024px;
+}
+
+.modal-alert{
+  align-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+/*ipad pro*/
+@media (max-width: 1024px) {
+  .main-bmc{
+    max-width: 80%;
+  }
+}
+
+
+/*Tablet*/
+@media (max-width: 800px) {
+  .main-bmc{
+    max-width: 85%;
+  }
+}
+
+/*Phone*/
+@media (max-width: 415px) {
+  .main-bmc{
+    max-width:85% ;
+    padding-left: 3em;
+  }
+}
+
+
+
+
+.titulo {
+  font-size: 3em;
+  color: #5a5a5a;
+  font-weight: bold;
+  padding: 0.5em;
+  padding-left: 3.1rem;
+}
+.crear {
+  font-weight: 300;
+  font-size: 1em;
+  text-align: right;
+  padding: 2em;
+}
+
+.card-bmc {
+  height: 10px !important;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: 2px solid lightgray;
+}
+
+.card-bmc h5 {
+  margin-bottom: 0;
+}
+
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  color: red;
+  border-style: solid 2spx #000;
+  text-align: right;
+  border-top: 3px solid red;
+}
+
+.delete-all{
+  width: 200px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.listar-bmc {
+  position: relative;
+  left: 15%;
+}
+
+@media (min-width: 1450px) {
+  .listar-bmc {
+    position: relative;
+    
+  left: 18%; 
+  }
+}
+
+@media (max-width: 1020px){
+  .card-title{
+    padding-left: 1.5em;
+    font-size: 15pt;
+  }
+}

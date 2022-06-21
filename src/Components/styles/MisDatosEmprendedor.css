@@ -1,0 +1,285 @@
+/*fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+/*font rules */
+/* font-family: 'Montserrat', sans-serif;  */
+
+
+.bg{
+  background-color: #CCCCCC;
+}
+
+.masterClass {
+  font-family: "Montserrat", sans-serif;
+}
+
+.imagen {
+  color: blanchedalmond;
+  background-image: url("../../images/bg_header.png");
+  height: 14rem;
+}
+
+.profile-picture {
+  overflow: hidden;
+  border-radius: 100%;
+  width: 8em;
+  height: 8em;
+  border: 2px double;
+  border-color: #dfe0eb;
+}
+
+.hint_size{
+  font-size: 11pt;
+  font-weight: 500;
+  position: absolute;
+  align-content: center;
+  margin-top: 1.3em;
+  padding-left: .8em;
+  color: #E20515;
+}
+
+.profile_name{
+  opacity: 0.8;
+}
+
+.card {
+  background-color: #ffffff;
+  height: 100%;
+  padding-bottom: 7em;
+  margin: 1em;
+  top: -3em;
+}
+
+.colum {
+  text-align: center;
+}
+
+/*perfil picture*/
+
+.avatar {
+  background-color: #e5e5e5;
+  height: 8em;
+  width: 8em;
+  border-radius: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: -4em;
+  box-shadow: 2px 3px 11px #a3a2a2;
+}
+
+.profile_name {
+  color: #3c4858;
+  text-align: center;
+  font-size: 1em;
+  margin-top: 3em;
+  font-weight: bold;
+}
+
+.instruccion {
+  color: #3c4858;
+  text-align: center;
+  margin-top: 2em;
+  font-size: 1.2em;
+  font-weight: 900;
+  margin-bottom: 4em;
+}
+
+.text_center {
+  text-align: center;
+}
+
+p {
+  color: 000000;
+  font-size: 0.9em;
+}
+
+.field-container-form {
+  background-color: #ffffff;
+  border-radius: none;
+  width: 18em;
+  border-style: none;
+  border-bottom: solid 1px #ccc;
+  margin-bottom: 3em;
+  padding: 0px;
+  outline: none;
+}
+
+.field-container2 {
+  background-color: #ffffff;
+  width: 100%;
+  border-bottom: solid 1px #ccc;
+  margin-bottom: 2.5em;
+  overflow:visible;
+  white-space: initial;
+  height: auto;
+  margin-top: -2em;
+}
+
+.instruccion2 {
+  text-align: left;
+  font-size: 1.3em;
+  margin-top: 1em;
+  padding: 2em;
+}
+
+.info2{
+  margin-left: 13rem;
+  width: 72%;
+  justify-content: left;
+  align-content: left ;
+  justify-items: left;
+}
+
+/* Responsive */
+@media (max-width: 1000px) {
+  .info2{
+    margin-left: 0;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    padding-left: 7em;
+    padding-right: 7em;
+  }
+}
+
+
+.btnsave {
+  margin-top: 1em;
+  background-color: red;
+  border-radius: 0%;
+  border: none;
+  width: 10em;
+}
+
+.btncancel{
+  margin-top: 1em;
+  color: white;
+  background-color: black !important;
+  border-radius: 0%;
+  border: none;
+  width: 10em;
+}
+
+.btn-close-data{
+  font-family:sans-serif ;
+  font-weight: 500;
+  padding-right: 30px;
+  text-align: end;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.btnsave2 {
+  margin-top: 1em;
+  background-color: red;
+  border-radius: 0%;
+  border: none;
+  width: 10em;
+}
+
+
+.input_link {
+  display: none;
+}
+
+.input_image {
+  max-width: 8em;
+}
+
+.una{
+  display: flex;
+}
+
+.col-md-6{
+  margin-top: 0.3em;
+}
+
+.titulop{
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 1.5em;
+  
+}
+
+
+.recuperarpass{
+  font-size: .9em;
+}
+
+.btn-espacio-arriba{
+  margin-top: 0em;
+  margin-bottom: 5em;
+}
+
+.btn-danger{
+  font-size: .9em;
+  background-color:#E20515;
+  border-radius: none;
+
+}
+.btn-danger:hover{
+  background-color: #000000;
+  border-radius: none;
+}
+
+
+
+
+.instruccion3{
+text-align: right;
+padding-right: 65px;
+
+font-size: 300;
+margin-top: -2em;
+font-size: 12pt;
+
+}
+
+@media screen and (max-width: 1080px){
+.instruccion3{
+  padding-right:0;
+}
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+.passwordContainer{
+  display: grid;
+}
+
+.subir-foto{
+  background-color: #E20515;
+  width: 48px;
+  height: 48px;
+  padding: 8px 7px;
+  border-radius: 100%;
+  position: relative;
+  right: -2em;
+  bottom: 2em;
+}
+
+/*Phone*/
+@media (max-width: 412px) {
+  .instruccion3{
+    text-align: center;
+    font-size: 10pt;
+  }
+}
+
+/*Tablet*/
+@media (max-width: 800px) {
+  .instruccion3{
+    text-align: center;
+    font-size: 10pt;
+  }
+}
+

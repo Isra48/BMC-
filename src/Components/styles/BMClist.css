@@ -1,0 +1,29 @@
+.icons{
+    color: red;
+    border-style: solid 2px #000;
+    text-align: right;
+    border-top: 3px solid red;
+    padding-top: 5px;
+}
+
+.svg-icons{
+    border:none;
+    background-color: transparent;
+    margin: 0 20px;
+}
+
+.title-bmc{
+    margin-top: -18px;
+    padding-bottom: 0.4em;
+}
+
+.break-word {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.undo{
+    width: 50%;
+    filter:opacity(50%);
+}
