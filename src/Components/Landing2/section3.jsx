@@ -1,5 +1,11 @@
 import React from "react";
-
+import ImageS3 from "../../images/Rectangle 213.png";
+import ImageS31 from "../../images/Rectangle 214.png";
+import ImageS32 from "../../images/Rectangle 215.png";
+import ImageS33 from "../../images/Rectangle 216.png";
+import ImageS34 from "../../images/Rectangle 217.png";
+import ImageS35 from "../../images/Rectangle 218.png";
+import ImageS36 from "../../images/Rectangle 219.png";
 class Section3 extends React.Component {
   render() {
     return (
@@ -19,13 +25,27 @@ class Section3 extends React.Component {
             </div>
           </div>
           <div className="containers32">
-            <div className="imgsm">1</div>
-            <div className="imgsm"> 2</div>
-            <div className="imgmd"> 3</div>
-            <div className="imglg"> 4</div>
-            <div className="imgmd"> 5</div>
-            <div className="imgsm"> 6</div>
-            <div className="imgsm"> 7</div>
+            <div className="imgsm">
+              <img className="images31" src={ImageS3} alt="image section2 " />
+            </div>
+            <div className="imgsm">
+              <img className="images32" src={ImageS31} alt="image section3 " />
+            </div>
+            <div className="imgmd">
+              <img className="images33" src={ImageS32} alt="image section3 " />
+            </div>
+            <div className="imglg">
+              <img className="images34" src={ImageS33} alt="image section3 " />
+            </div>
+            <div className="imgmd">
+              <img className="images33" src={ImageS34} alt="image section3 " />
+            </div>
+            <div className="imgsm">
+              <img className="images32" src={ImageS35} alt="image section3 " />
+            </div>
+            <div className="imgsm">
+              <img className="images31" src={ImageS36} alt="image section3 " />
+            </div>
           </div>
         </div>
       </React.Fragment>

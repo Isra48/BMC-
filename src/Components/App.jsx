@@ -6,6 +6,7 @@ import BMC from "../pages/BMC";
 import MisDatosEmprendedor from "../pages/MisDatosEmprendedor";
 import NotFound from "../Components/NotFound";
 import ReactGA from "react-ga";
+
 function App(props) {
   const loginState = props.loginState;
 
