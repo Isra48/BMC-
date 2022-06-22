@@ -176,14 +176,30 @@
 
 .containers32 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: flex-end;
   height: 40%;
   margin-top: 3em;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 
 .imgsm {
   background-color: #da291c;
   width: 113px;
   height: 150px;
+  margin: 0em 0.5em;
+}
+.imgmd {
+  height: 169px;
+  width: 114px;
+  background-color: #da291c;
+  margin: 0em 0.5em;
+}
+
+.imglg {
+  height: 186px;
+  width: 113px;
+  background-color: #da291c;
+  margin: 0em 0.5em;
 }
