@@ -17,10 +17,11 @@ class Section1 extends React.Component {
             <h1 className="TituloPrincipal">BMC</h1>
             <p className="plight">Business Model Canvas</p>
             <p className="pnormal">Estructura y reinventa tu empresa</p>
-            <a className="btnModal" href="jejej">
-              {" "}
-              Ingresar{" "}
-            </a>
+            <div className="btnContainer">
+              <a className="btnModal" href="jejej">
+                Ingresar
+              </a>
+            </div>
           </div>
         </div>
       </React.Fragment>
