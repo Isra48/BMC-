@@ -216,7 +216,35 @@
   height: 186px;
   width: 113px;
 }
+/*Section 1 Footer*/
+.blackfooter {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  height: 60vh;
+  justify-content: center;
+}
+.containlogo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 
+/*.imagewortev{
+  width: 300px;
+  height:95px;
+}
+*/
+.blacktext {
+  color: white;
+  height: 70px;
+  width: 700px;
+}
+.wortevsnblack {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+}
 /*Section 2 footer*/
 .footerlist {
   backgroud-color: #f2f2f2;
