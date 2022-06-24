@@ -26,11 +26,11 @@ class Landing2 extends React.Component {
     return (
       <React.Fragment>
         <Navbar />
-        {/* {this.state.modalActive ? <Modal click={this.handleClick} /> : null} */}
+        {this.state.modalActive ? <Modal click={this.handleClick} /> : null}
 
         <Section1 click={this.handleClickOn} />
-        {/* <Section2 /> */}
-        {/* <Section3 /> */}
+        <Section2 />
+        <Section3 click={this.handleClickOn} />
         {/* <Sectionf1 /> */}
         {/* <Sectionf2 /> */}
         {/* <Sectionf3 /> */}

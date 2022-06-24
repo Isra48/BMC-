@@ -227,7 +227,7 @@
   }
 }
 /*Mediaquerys Section 1 phone*/
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 480px) {
   .Section1 {
     display: block;
     justify-content: center;
@@ -245,7 +245,7 @@
     padding-top: 4em;
     color: #fefefe;
     position: absolute;
-    top: 63%;
+    top: 73%;
     left: 50%;
     transform: translate(-50%, -140%);
     align-items: center;
@@ -260,17 +260,37 @@
     text-align: center;
   }
   .plight {
-    line-height: 21.5px;
+    line-height: 25.5px;
     font-size: 22px;
+    text-align: center;
+    max-width: 300px;
   }
 
   .pnormal {
-    padding: 0em 3em;
     line-height: 21.5px;
+    text-align: center;
+    max-width: 300px;
   }
 
   .mockmac {
     width: 120%;
+  }
+
+  .btnContainer {
+    margin-top: 5.2em;
+    transform: translate(-0%, -230%);
+  }
+  .btnModal {
+    background-color: #ffd305;
+    color: #000000;
+    border-radius: 30px;
+    text-decoration: none;
+    min-width: 180px;
+    padding: 0.4em 4.5em 0.4em 4.5em;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 23px;
   }
 }
 
@@ -325,6 +345,93 @@
   font-family: Montserrat;
 }
 
+/*Mediaquerys Section 1 ipad air */
+@media only screen and (max-width: 820px) {
+  .seccion2 {
+  }
+  .column1s2 {
+    display: flex;
+    align-items: flex-end;
+  }
+  .imagens2 {
+    height: 110%;
+    width: 37vh;
+    transform: translate(-0%, -10%);
+  }
+  .encabezadoss2 {
+    color: #000000;
+    padding-left: 30px;
+    line-height: 1px;
+    height: 175px;
+    padding-top: 50px;
+  }
+  .ecabezados2 {
+    color: #000000;
+    font-family: "Paytone One", sans-serif;
+    font-size: 22px;
+  }
+  .subecabezados2 {
+    color: #000000;
+    font-family: "Paytone One", sans-serif;
+    font-size: 34px;
+  }
+  .padre2s2 {
+    color: #000000;
+    display: flex;
+    justify-content: column;
+    padding-top: 15px;
+    margin-bottom: -37px;
+  }
+
+  .column2s2 {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    transform: translate(-0%, -10%);
+  }
+  .texts2 {
+    color: #000000;
+    font-family: "Paytone One", sans-serif;
+    font-size: 24px;
+    text-justify: left;
+    letter-spacing: -0.5px;
+    padding-left: 7px;
+    line-height: 28px;
+  }
+  .subtext {
+    padding-left: 7px;
+  }
+}
+
+/*Mediaquerys Section 2 phone */
+@media only screen and (max-width: 480px) {
+  .padre2s2 {
+    display: block;
+  }
+
+  .imagens2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .encabezadoss2 {
+    padding: 4.5em 1.5em 0em 1.5em;
+    margin-bottom: -1em;
+  }
+  .ecabezados2 {
+    font-size: 20px;
+  }
+
+  .subecabezados2 {
+    font-size: 24px;
+  }
+  .column2s2 {
+    padding-bottom: 20px;
+  }
+}
+
+/*///////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////*/
 /* Section 3*/
 .section3 {
   justify-content: center;
@@ -411,6 +518,86 @@
   height: 186px;
   width: 113px;
 }
+/*Mediaquerys Section 1 ipad air */
+@media only screen and (max-width: 820px) {
+  .section3 {
+    justify-content: center;
+    text-align: center;
+    background-color: #fad306;
+    height: 72vh;
+    padding: 0em 4em 0em 4em;
+  }
+  .containers31 {
+    height: 10%;
+  }
+  .tituloS3 {
+    padding-top: 1.5em;
+    font-family: "Paytone One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: -0.5px;
+    line-height: 28.8px;
+    color: #000000;
+  }
+  .texts3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    padding: 1em 3em 0em 3em;
+  }
+  .containers32 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 32%;
+    width: 100%;
+    margin-top: 4em;
+    padding-left: 10em;
+    padding-right: 10em;
+  }
+
+  .images31 {
+    height: 120px;
+    width: 83px;
+  }
+  .images32 {
+    height: 120px;
+    width: 83px;
+  }
+  .images33 {
+    height: 139px;
+    width: 84px;
+  }
+  .images34 {
+    height: 156px;
+    width: 83px;
+  }
+}
+/*Mediaquerys Section 3 phone */
+@media only screen and (max-width: 480px) {
+  .section3 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 40em;
+  }
+
+  .containers32 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 32%;
+    width: 100%;
+    margin-top: 4em;
+    padding-left: 10em;
+    padding-right: 10em;
+  }
+}
+
 /*Section 1 Footer*/
 .blackfooter {
   background-color: black;

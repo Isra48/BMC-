@@ -29,6 +29,10 @@ class Section2 extends React.Component {
                 tu <span className="textbold"> modelo de negocio </span> a
                 cualquier persona.
               </p>
+              <a href className="conocemaswv">
+                {" "}
+                Conoce mas
+              </a>
             </div>
           </div>
         </div>
