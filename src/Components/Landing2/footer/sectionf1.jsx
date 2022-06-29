@@ -16,11 +16,16 @@ class Sectionf1 extends React.Component {
         <div className="blackfooter">
           <div className="blackfootercontainer">
             <div className="containlogo-text">
-              <img
-                className="whitewortev"
-                src={whitelogo}
-                alt="Logo de Wortev Aceleradora"
-              />
+              <div className="Whitewvlogo">
+                {" "}
+                <img
+                  className="whitewortev"
+                  src={whitelogo}
+                  alt="Logo de Wortev Aceleradora"
+                  width="233"
+                  height="69"
+                />{" "}
+              </div>
               <p className="blacktext">
                 Nuestra misión es evolucionar la economía apoyando a los
                 emprendedores que están construyendo las empresas del futuro.
