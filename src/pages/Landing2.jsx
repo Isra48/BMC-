@@ -11,7 +11,7 @@ import Modal from "../Components/modal/modalLogin";
 
 class Landing2 extends React.Component {
   state = {
-    modalActive: false
+    modalActive: true
   };
 
   handleClickOn = (e) => {

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
 .Modal_overlay {
   width: 100vw;
   height: 100vh;
@@ -12,7 +14,7 @@
   padding: 40px;
 }
 .ModalContainer {
-  background-color: #ffd2f2;
+  background-color: #ffd305;
   width: 500px;
   min-height: 100px;
   position: relative;
@@ -20,7 +22,58 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 20px;
 }
-
+.ModalContainer {
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 359px;
+  padding-left: ;
+}
+.subhead {
+  color: #4d4d4d;
+}
+.inputemailwv {
+  display: flex;
+  flex-direction: column;
+  text-align: flex-start;
+}
+.emailbox {
+  text-align: left;
+}
+.correowv {
+  font-size: 11px;
+}
+.passwordwv {
+  padding: 15px 0 0 0;
+  font-size: 11px;
+}
+.emailwvbox {
+  border: none;
+  padding: 2.5px 0px;
+}
+.passbox {
+  padding: 2.5px 0px;
+  margin: 0 0 5px 0;
+  border: none;
+}
+.btningresarmodal {
+  margin: 20px 2px 2px 0;
+  padding: 7px 0;
+  border-radius: 18px;
+  background-color: #244cd3;
+  color: white;
+  border: none;
+  letter-spacing: 1.25px;
+  width: 100%;
+}
+.buttonlogin-forgetpass {
+  text-align: center;
+}
+.forgetpassword {
+  margin: 35px 0 0 0;
+  font-size: 11px;
+}
 .closebtn {
   position: absolute;
   top: -30px;
