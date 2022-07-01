@@ -43,7 +43,11 @@ class Sectionf3 extends React.Component {
               Política de privacidad{" "}
             </a>
           </div>
-          <p class="wortevr">© 2020 WORTEV®. Todos los derechos reservados.</p>
+          <div className="wortevRightsContainer">
+            <p className="wortevr">
+              © 2020 WORTEV®. Todos los derechos reservados.
+            </p>
+          </div>
         </div>
       </React.Fragment>
     );
