@@ -8,6 +8,7 @@ import Sectionf1 from "../Components/Landing2/footer/sectionf1";
 import Sectionf2 from "../Components/Landing2/footer/sectionf2";
 import Sectionf3 from "../Components/Landing2/footer/sectionf3";
 import Modal from "../Components/modal/modalLogin";
+import Slider from "../Components/Landing2/Slider";
 
 class Landing2 extends React.Component {
   state = {
@@ -32,6 +33,7 @@ class Landing2 extends React.Component {
           <Section1 click={this.handleClickOn} />
           <Section2 />
           <Section3 click={this.handleClickOn} />
+          {/*<Slider />*/}
           <Sectionf1 />
           <Sectionf2 />
           <Sectionf3 />

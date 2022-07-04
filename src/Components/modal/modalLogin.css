@@ -15,21 +15,18 @@
 }
 .ModalContainer {
   background-color: #ffd305;
-  width: 500px;
   min-height: 100px;
   position: relative;
   border-radius: 5px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 20px;
-}
-.ModalContainer {
   font-family: "Montserrat";
   display: flex;
   flex-direction: column;
   text-align: center;
   width: 359px;
-  padding-left: ;
 }
+
 .subhead {
   color: #4d4d4d;
 }
@@ -58,10 +55,11 @@
   border: none;
 }
 .btningresarmodal {
+  background-color: #244cd3;
   margin: 20px 2px 2px 0;
   padding: 7px 0;
   border-radius: 18px;
-  background-color: #244cd3;
+
   color: white;
   border: none;
   letter-spacing: 1.25px;
@@ -85,4 +83,67 @@
   transition: 0.3s ease all;
   border-radius: 5px;
   color: #000;
+}
+
+.ModalSigninContainer {
+  background-color: #244cd3;
+  min-height: 100px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 359px;
+}
+
+.subhead {
+  color: #4d4d4d;
+}
+.inputemailwv {
+  display: flex;
+  flex-direction: column;
+  text-align: flex-start;
+}
+.emailbox {
+  text-align: left;
+}
+.correosigninwv {
+  font-size: 11px;
+  margin-top: 15px;
+}
+.passwordwv {
+  padding: 15px 0 0 0;
+  font-size: 11px;
+}
+.emailwvbox {
+  border: none;
+  padding: 2.5px 0px;
+}
+.passbox {
+  padding: 2.5px 0px;
+  margin: 0 0 5px 0;
+  border: none;
+}
+.btnregistrartemodal {
+  background-color: #ffd305;
+  margin: 20px 2px 2px 0;
+  padding: 7px 0;
+  border-radius: 18px;
+
+  color: black;
+  font-weight: bolder;
+  font-family: Montserrat;
+  border: none;
+  letter-spacing: 1.25px;
+  width: 100%;
+}
+.buttonsignin {
+  text-align: center;
+}
+.forgetpassword {
+  margin: 35px 0 0 0;
+  font-size: 11px;
 }
