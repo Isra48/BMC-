@@ -134,7 +134,35 @@
     margin-top: 0.5em;
   }
 }
+/*MEDIA QUERYS TABLET*/
+@media only screen and (max-width: 1150px) {
+  .child2 {
+    padding: 2em 0 1em 0;
+    align-self: flex-end;
+  }
 
+  .TituloPrincipal {
+    margin: 0;
+    font-size: 100px;
+  }
+  .mockmac {
+    width: 330px;
+  }
+  .pnormal {
+    font-size: 20px;
+    margin: 0;
+  }
+  .plight {
+    font-size: 20px;
+    margin: 0;
+  }
+  .btnModal {
+    padding: 0.3em 5em;
+  }
+  .btnContainer {
+    margin-top: 0.5em;
+  }
+}
 /*MEDIA QUERYS CEL*/
 @media only screen and (max-width: 420px) {
   .Section1 {
@@ -229,8 +257,14 @@
 .conocemaswv {
   font-weight: bolder;
 }
-
-/*Mediaquery Tablet */
+/*Mediaquery  Sec2 Tablet */
+@media only screen and (max-width: 1000px) {
+  .texts2 {
+    font-size: 26px;
+    line-height: 28px;
+  }
+}
+/*Mediaquery Sec 2 Tablet */
 @media only screen and (max-width: 820px) {
   .column1s2 {
     width: 50%;
@@ -406,7 +440,26 @@
     width: 14.2857%;
   }
 }
-
+/*Aquí inicia el Slider*/
+.gallery {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  background-color: #1a1a1a;
+  padding: 0px 20px;
+  margin: 80px 0px;
+}
+.gallery img {
+  flex: 1;
+  object-fit: contain;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.gallery img:hover {
+  flex: 4;
+}
 /*Section 1 Footer*/
 .section1blackfooter {
   width: 100%;
@@ -583,6 +636,8 @@
   }
   .blackfootercontainer {
     display: flex;
+    flex-wrap: wrap;
+    padding: 0px 28px;
     flex-direction: column;
     max-width: 480px;
     align-items: flex start;
@@ -627,19 +682,14 @@
     padding: 10px 0;
   }
 
-  .iconossnblack {
-    padding: 0 10px 0 0;
-    margin: 0 0px;
-    justify-content: center;
-  }
   .fblogo {
     margin-left: 10px;
   }
   .youtubelogo {
-    margin-top: 0px;
+    margin-top: 10px;
   }
   .linkedinlogo {
-    margin-top: 0px;
+    margin-top: 10px;
   }
   .tiktoklogo {
     margin-top: 10px;
@@ -727,12 +777,36 @@
     padding-bottom: 35px;
     padding-left: 20px;
   }
+  .linkwv {
+    padding-right: 0px;
+    padding-left: 1em;
+  }
   .ayudasec {
-    margin-left: -2em;
+    margin-left: 0.2em;
   }
 
   .nosotros-unetesec {
-    margin-left: -2em;
+    margin-left: -1em;
+  }
+  .aprendesec {
+    margin-left: -1em;
+  }
+  .acelerasec {
+    margin-left: -0.8em;
+  }
+}
+/*Mediaquerys Sec2 Footer  690px*/
+@media only screen and (max-width: 700px) {
+  .footerlist {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 35px;
+    padding-left: 20px;
   }
 }
 /*Mediaquerys Sec2 Footer Mobile*/
